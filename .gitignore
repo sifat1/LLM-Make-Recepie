@@ -1,0 +1,91 @@
+# ===============================
+# .NET / C# (for dotnet-api)
+# ===============================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET secrets
+secrets.json
+
+# Local test results
+TestResults/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.pdb
+
+# Rider
+.idea/
+
+# Visual Studio
+.vscode/
+*.vs/
+
+# .NET environment
+.env
+
+# ===============================
+# Python / FastAPI
+# ===============================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+env/
+venv/
+pip-wheel-metadata/
+
+# Ignore fine-tuned model files
+fastapi/fine_tuned_model/
+
+# ===============================
+# Node.js / React frontend
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# production build
+frontend/build/
+
+# ===============================
+# Docker
+# ===============================
+*.tar
+**/.dockerignore
+Dockerfile*
+docker-compose*
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+*.pid
+
+.fake
