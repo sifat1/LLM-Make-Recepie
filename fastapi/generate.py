@@ -12,5 +12,5 @@ if tokenizer.pad_token is None:
 generator = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 def generate_text(prompt):
-    generated_text = generator(prompt, max_length=300, num_return_sequences=1, pad_token_id=tokenizer.eos_token_id)
+    generated_text = generator(prompt, max_length=500, num_return_sequences=1, pad_token_id=tokenizer.eos_token_id)
     return generated_text[0]['generated_text']
