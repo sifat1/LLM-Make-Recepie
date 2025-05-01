@@ -32,7 +32,7 @@ Welcome to the **Make Recipe** project! This application is designed to help use
 
 ## Screenshots
 
-![Screenshot 1](screenshots/Screenshot from 2025-04-09 13-12-42.png)
+![Screenshot 1](./screenshots/Screenshot%20from%202025-04-09%2013-12-42.png)
 *Description of Screenshot 1*
 
 ![Screenshot 2](path/to/screenshot2.png)
